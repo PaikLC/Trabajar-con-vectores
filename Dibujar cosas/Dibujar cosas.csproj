@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Dibujar_cosas</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>Ordoñez Pedrero Francisco Isaac</Authors>
+    <Version>1.0.0</Version>
+    <Company>LC</Company>
+    <Description>Realiza operaciones con vectores en 2 dimensiones y un intento de 3 dimensiones</Description>
+    <Title>Trabajar con vectores</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>Trabajar con vectores</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
